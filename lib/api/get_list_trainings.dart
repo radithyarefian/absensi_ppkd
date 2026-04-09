@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'package:absensi_ppkd/models/list_training_model.dart';
+import 'package:absensi_ppkd/models/training_model.dart';
 import 'package:http/http.dart' as http;
 
 Future<List<Training>> getTrainingList() async {
