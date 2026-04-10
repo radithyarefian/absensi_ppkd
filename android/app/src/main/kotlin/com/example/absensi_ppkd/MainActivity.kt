@@ -1,4 +1,4 @@
-package com.example.absensi_ppkd
+package com.ppkd.geopresence
 
 import io.flutter.embedding.android.FlutterActivity
 
