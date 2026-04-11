@@ -37,7 +37,7 @@ android {
         versionName = flutter.versionName
     }
 
-     signingConfigs {
+      signingConfigs {
         if (keystoreProperties.isNotEmpty()) {
             create("release") {
                 keyAlias = keystoreProperties["keyAlias"] as String
@@ -48,6 +48,7 @@ android {
         }
    
     }
+
 
 
     buildTypes {
